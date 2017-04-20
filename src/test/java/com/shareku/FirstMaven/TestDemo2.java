@@ -31,7 +31,7 @@ public class TestDemo2 {
 		public void testLogin2() {		
 			//wl.login(driver,sl);		
 			//Assert.assertEquals(sl.getTitle(driver), "联宠采购商城-一站式动物医院采购平台");
-			driver.get("http://www.163.com");		
+			driver.get("http://www.qq.com");		
 			//sl.newAssertEquals("测试2", "aa", "aa","testLogin()2", "tttt");
 		}
 		
