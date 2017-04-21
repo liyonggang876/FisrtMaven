@@ -1,6 +1,6 @@
 package com.shareku.FirstMaven;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.*;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -23,6 +23,7 @@ public class TestDemo2 {
 			//wl.login(driver,sl);		
 			//Assert.assertEquals(sl.getTitle(driver), "联宠采购商城-一站式动物医院采购平台");
 			driver.get("http://www.baidu.com");		
+			assertEquals("aaa","bbb");
 			//sl.newAssertEquals("测试2", "aa", "aa","testLogin()2", "tttt");
 		}
 		
@@ -31,7 +32,9 @@ public class TestDemo2 {
 		public void testLogin2() {		
 			//wl.login(driver,sl);		
 			//Assert.assertEquals(sl.getTitle(driver), "联宠采购商城-一站式动物医院采购平台");
-			driver.get("http://www.qq.com");		
+			
+			driver.get("http://www.qq.com");
+			assertEquals("aaa","bbb");
 			//sl.newAssertEquals("测试2", "aa", "aa","testLogin()2", "tttt");
 		}
 		
